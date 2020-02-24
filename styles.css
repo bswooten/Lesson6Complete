@@ -1,0 +1,231 @@
+/* Global Styles
+-------------------------------*/
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    background-color: rgb(0, 123, 180);
+    background-image: url("Woo10_bckgrnd.png");
+    color: #0074a1;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 15px;
+    margin: -12px;
+    line-height: 1.5;
+}
+nav ul {
+    float: right;
+    padding: 10px;
+    margin-right: 40px;
+    margin-top: -160px;
+    text-decoration: none;
+}
+nav a {
+    color: white;
+    border: white solid 15px 0;
+    font-size: 17px;
+    font-family: 'Alpha Slab One', sans-serif;
+    margin: 10px 10px 15px 20px;
+    border-radius: 10px white;
+    text-decoration: none;
+}
+nav a:hover {
+    border-bottom: 5px solid white;
+    text-decoration: none;
+   
+    padding: 5px 5px;
+    margin-right: 10px;
+    color: rgb(199, 199, 199);
+}
+nav ul li {
+    text-decoration: none;
+    display: inline;
+    position: relative;
+    margin-right: 15px;
+    border-bottom: 6px white solid;
+    border-style: hidden;
+}
+nav ul li a {
+    padding-right: 10px;
+     border-bottom: 6px;
+}
+nav ul li ul {
+    position: absolute;
+    left: -9999px;
+    top: 13.5em;
+    padding: 0;
+    margin-right: 5px;
+    margin-top: -11.75em;
+    width: 200px;
+    background-color: rgb(41, 77, 95);
+    border-radius: 10px;
+    text-decoration: none;
+}
+nav li:hover ul {
+    left: 0;
+}
+
+.title {
+    color: rgb(255, 255, 255);
+    padding-bottom: 75px;
+    padding-left: 100px;
+    margin-right: 10px;
+}
+h1, h2 {
+font-family: 'Alfa Slab One', cursive;
+}
+
+img {
+    width: 300px;
+}
+a:link {
+    color: green;
+}
+a:hover {
+    text-decoration: none;
+    text-align: left;
+}
+li a {
+    display: inline-block;
+}
+h2 {
+    margin: 0;
+}
+.content-wrap {
+    width: 900px;
+    margin: 0 auto 50px;
+    padding: 50px 50px 100px 300px;
+}
+
+/* Profile
+-------------------------------*/
+}
+.Wooten-Logo {
+    width: 200px;
+    align-content: center;
+}
+.Wooten_Designs {
+    padding-top: 2px;
+    padding-bottom: 10px;
+    text-align: center;
+    background: #F7FFF7;
+}
+.Wooten_Designs a {
+    color: #F7FFF7;
+    background: #e0d100;
+    text-decoration: none;
+    padding-bottom: 10px;
+    padding-top: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 5px;
+}
+/* Projects
+------------------------------*/
+.projects {
+        background: #F7FFF7;
+        padding-left: 7rem;
+        padding-top: 5px;
+        padding-bottom: 5px;
+     }
+.projects a {
+    color: #F7FFF7;
+    background: #e0d100;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 5px;
+}
+.projects a:hover {
+    background: #635d13;
+}
+         
+.projects .btn {
+    color: #F7FFF7;
+    background: #A1C6D7;
+    text-decoration: none;
+    padding: 8px 10px;
+    border-radius: 4px;
+    display: inline-block;
+}
+.projects .btn:hover {
+    background: rgba(3, 72, 117, 0.8);
+}
+.Vectorslogos { 
+    padding-top: 8px;
+
+}
+
+.Easy-Street-Logo {
+    width: 350px;
+    margin-right: 2px;
+    text-align: center;
+    }
+.Reposaudo {
+    width: 250px;
+    padding: 10px -2rem;
+    float: right;
+    margin: -29.8rem 20rem 9rem;
+    text-align: center;
+}
+
+.Alpha-Organics {
+    float: right;
+    margin: -73px 88px;
+    padding: 0;
+    text-align: center;
+}
+
+.Woo10_businesscardmockup {
+    width: 600px;
+    text-align: center;
+    margin: 0 0 0 -46px; 
+    padding-top: 40px;
+}
+/* Work Experience
+-------------------------------*/
+.work-experience {
+     background: rgb(255, 233, 31);
+     margin-top: 60px;
+     margin-left: -100px;
+     padding-top: 70px;
+     padding-bottom: 5px;
+     padding-left: 90px;
+    }
+
+/* Education
+-------------------------------*/
+.education {
+    padding-bottom: 65px;
+    margin-left: -100px;
+    padding-left: 90px;
+    padding-top: 70px;
+    background: rgb(255, 233, 31);
+}
+
+/* Contact Info
+-------------------------------*/
+
+footer {
+    background-color: #029AF5;
+    color: #F7FFF7;
+    height: auto;
+    padding-bottom: 2rem;
+    padding-top: 3rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    margin-left: -100px;
+}
+footer ul {
+
+}
+footer li {
+    text-decoration: none;
+    list-style-type: none;
+    margin: 1.25em;
+}
+footer ul li a:link {
+    color: #000000;
+
+}
